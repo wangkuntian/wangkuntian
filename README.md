@@ -9,7 +9,7 @@
 我喜欢研究复杂系统背后的运行逻辑，也喜欢把踩过的坑整理成可以复用的方案。  
 现在主要在做 OpenStack、云平台、虚拟网络、宿主机 Agent 和自动化工具相关的事情。
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&width=760&lines=OpenStack+%2F+Neutron+%2F+Cloud+Network;KVM+%2F+LVM+%2F+OVS+%2F+OVN;Build+it%2C+debug+it%2C+document+it)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&width=820&lines=OpenStack+%2F+Neutron+%2F+Cloud+Network;%E4%BB%8A%E6%97%A5%E4%B9%9F%E5%9C%A8%E5%92%8C%E7%BD%91%E7%BB%9C%E8%B0%83%E8%AF%95%E5%92%8C%E8%A7%A3;Build+it%2C+debug+it%2C+document+it)
 
 <p>
   <a href="mailto:wangkuntian1994@163.com">
@@ -27,6 +27,35 @@
 
 ---
 
+## 今日人设
+
+<table>
+  <tr>
+    <td><strong>职业</strong></td>
+    <td>云网络系调试师</td>
+  </tr>
+  <tr>
+    <td><strong>武器</strong></td>
+    <td>日志、抓包、路由表、iptables、OVS / OVN 流表</td>
+  </tr>
+  <tr>
+    <td><strong>技能</strong></td>
+    <td>把“偶现问题”逼到稳定复现，把“玄学网络”翻译成人话</td>
+  </tr>
+  <tr>
+    <td><strong>状态</strong></td>
+    <td>咖啡因驱动中，文档同步生成中</td>
+  </tr>
+</table>
+
+```text
+       (￣▽￣)ノ   Cloud Network Debugger is online
+       /|    |    今日也在把玄学问题变成已知问题
+        |____|
+```
+
+---
+
 ## 关于我
 
 如果用几句话介绍我，大概是这样：
@@ -38,7 +67,7 @@
 
 ---
 
-## 我常玩的技术地图
+## 云端冒险地图
 
 <p>
   <img src="https://img.shields.io/badge/OpenStack-EA7600?style=for-the-badge&logo=openstack&logoColor=white" />
@@ -54,48 +83,80 @@
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 </p>
 
-```text
-Cloud Platform    OpenStack / Nova / Neutron / Cinder / Kolla-ansible
-Cloud Network     L3 HA / DVR / Floating IP / Security Group / IPv6
-Virtualization    KVM / QEMU / libvirt / LVM / VGPU / Windows Adaptation
-Automation        Python / Shell / Ansible / FastAPI / Flask / Django
-Exploring         Rust / Go / Axum / Agent / HostStack / vNet
+```mermaid
+flowchart LR
+  start(["登录云端大陆"]) --> linux["Linux / Shell"]
+  linux --> virt["虚拟化山脉<br/>KVM / QEMU / libvirt"]
+  virt --> openstack["OpenStack 城邦<br/>Nova / Neutron / Cinder"]
+  openstack --> network{"网络迷宫"}
+  network --> l3["L3 HA / DVR"]
+  network --> ovs["OVS / OVN"]
+  network --> route["iptables / 策略路由 / tun"]
+  openstack --> storage["存储工坊<br/>LVM / 镜像 / 卷"]
+  openstack --> agent["宿主机 Agent<br/>应用 / 磁盘 / 系统盘"]
+  l3 --> docs["文档卷轴"]
+  ovs --> docs
+  route --> docs
+  storage --> docs
+  agent --> docs
+  docs --> next(["继续探索 Rust / Go / Axum"])
+
+  classDef main fill:#2563eb,color:#fff,stroke:#93c5fd,stroke-width:1px;
+  classDef area fill:#0f766e,color:#fff,stroke:#99f6e4,stroke-width:1px;
+  classDef finale fill:#7c3aed,color:#fff,stroke:#ddd6fe,stroke-width:1px;
+  class start,next finale;
+  class openstack,network main;
+  class virt,storage,agent,l3,ovs,route,docs area;
 ```
 
 ---
 
-## 最近比较着迷的方向
+## 最近的支线任务
 
 ```mermaid
 mindmap
-  root((Cloud))
+  root((支线任务))
     OpenStack
       Neutron
       Nova
       Cinder
-    Network
+    云网络
       OVS
       OVN
       iptables
-      policy routing
-    Virtualization
-      KVM
+      策略路由
+    宿主机
+      Agent
       LVM
       libvirt
-    Delivery
+    输出
       RPM
       Ansible
-      docs
+      技术文档
 ```
 
-## 我的工程偏好
+---
 
-| 我喜欢 | 因为 |
-| --- | --- |
-| 可解释的架构 | 出问题时能快速定位，而不是靠猜 |
-| 小步验证 | 复杂系统里，证据比直觉可靠 |
-| 文档沉淀 | 让下一次排障少走弯路 |
-| 朴素实现 | 能长期维护的代码，才是真的酷 |
+## 工程偏好卡组
+
+<p>
+  <img src="https://img.shields.io/badge/SSR-可解释架构-7c3aed?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SR-小步验证-2563eb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SR-文档沉淀-0f766e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/R-朴素实现-374151?style=for-the-badge" />
+</p>
+
+> ### SSR 可解释架构
+> 出问题时能一路查到根因，而不是开会研究“它为什么突然好了”。
+>
+> ### SR 小步验证
+> 复杂系统里，证据比直觉可靠；能复现的问题已经赢了一半。
+>
+> ### SR 文档沉淀
+> 今天写一页排障记录，明天少一次深夜怀疑人生。
+>
+> ### R 朴素实现
+> 能长期维护的代码，才是真的酷；炫技不如稳定上线。
 
 ---
 
