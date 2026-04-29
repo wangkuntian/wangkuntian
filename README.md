@@ -88,37 +88,6 @@ mindmap
       docs
 ```
 
----
-
-## 做过一些有意思的事
-
-### 让 OpenStack 网络流量不再挤在一个点上
-
-在有栈云平台里做过虚拟机出入网和浮动 IP 端口映射场景的流量分散：兼容 L3 HA 和 DVR，同时把网络节点的热点压力拆开。这个特性后来进入 openEuler OpenStack SIG，并纳入 openEuler 20.03 LTS SP4 和 22.03 LTS SP3。
-
-[看看这份官方文档](https://openstack-sig.readthedocs.io/zh/latest/spec/distributed-traffic/)
-
-### 把虚拟网络、容器和宿主机流量串起来
-
-做过 HostStack / vNet 虚拟网络相关能力，参与子网、端口、安全组、虚拟网络异步化等接口建设。也处理过 ARM 容器代理分流，把代理能力从容器内迁移到宿主机，通过 `iptables`、策略路由和 `tun` 完成流量导流。
-
-### 给宿主机 Agent 补齐虚拟化和存储能力
-
-围绕宿主机侧 Agent 建设过卷管理、磁盘管理、镜像管理、应用同步、系统盘创建等接口。也落地过基于 LVM 的存储虚拟化方案，并处理 VGPU、Windows 适配、KVM 迁移脚本等实际场景。
-
-<details>
-<summary><strong>再展开一点点</strong></summary>
-
-- 做过 MySQL / Redis 云数据库高可用能力，包括镜像制作、故障检测和自动迁移。
-- 做过云平台监控告警优化，把监控数据从 MySQL 压力点迁移到更合适的存储链路。
-- 修过 DVR 部署模式下端口转发固定比例丢包问题，最后定位到计算节点 `qrouter` 命名空间里的 SNAT 规则异常。
-- 参与 openEuler OpenStack SIG，做过版本移植、文档编写和社区协作。
-- 参加 openEuler Summit 2023，做过 OpenStack 相关技术分享。
-
-</details>
-
----
-
 ## 我的工程偏好
 
 | 我喜欢 | 因为 |
@@ -152,6 +121,6 @@ mindmap
 
 <div align="center">
 
-**愿每一条奇怪的网络路径，最后都能被解释清楚。**
+**不要把所有问题都归咎于网络，虽然它经常看起来很可疑。**
 
 </div>
