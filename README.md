@@ -169,11 +169,11 @@ mindmap
 > ### R Boring Code Wins
 > Clever code gets applause. Boring code gets paged less. I know which ending I prefer.
 
-<div align="center">
-
 ---
 
-### Final Boss Rule
+## Final Boss Rule
+
+<div align="center">
 
 **Comments are like side quests: essential lore, somehow always skipped.**
 
