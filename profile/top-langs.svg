@@ -1,0 +1,31 @@
+<svg width="495" height="280" viewBox="0 0 495 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Top Languages</title>
+  <desc id="desc">Generated GitHub profile stats for wangkuntian</desc>
+  <rect width="495" height="280" rx="6" fill="#1a1b27"/>
+  <rect x="0.5" y="0.5" width="494" height="279" rx="5.5" stroke="#2f334d"/>
+  <text x="24" y="34" fill="#70a5fd" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="700">Top Languages</text>
+  <rect x="24" y="56" width="229" height="8" rx="4" fill="#f34b7d"/>
+  <rect x="253" y="56" width="87" height="8" rx="4" fill="#3572A5"/>
+  <rect x="340" y="56" width="29" height="8" rx="4" fill="#38bdf8"/>
+  <rect x="369" y="56" width="24" height="8" rx="4" fill="#555555"/>
+  <rect x="393" y="56" width="21" height="8" rx="4" fill="#38bdf8"/>
+  <rect x="414" y="56" width="16" height="8" rx="4" fill="#38bdf8"/>
+  <circle cx="30" cy="90" r="5" fill="#f34b7d"/>
+  <text x="44" y="94" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C++</text>
+  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">51.2%</text>
+  <circle cx="30" cy="118" r="5" fill="#3572A5"/>
+  <text x="44" y="122" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Python</text>
+  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">19.4%</text>
+  <circle cx="30" cy="146" r="5" fill="#38bdf8"/>
+  <text x="44" y="150" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Swift</text>
+  <text x="410" y="150" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">6.5%</text>
+  <circle cx="30" cy="174" r="5" fill="#555555"/>
+  <text x="44" y="178" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C</text>
+  <text x="410" y="178" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">5.4%</text>
+  <circle cx="30" cy="202" r="5" fill="#38bdf8"/>
+  <text x="44" y="206" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Dart</text>
+  <text x="410" y="206" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">4.8%</text>
+  <circle cx="30" cy="230" r="5" fill="#38bdf8"/>
+  <text x="44" y="234" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Makefile</text>
+  <text x="410" y="234" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">3.6%</text>
+</svg>

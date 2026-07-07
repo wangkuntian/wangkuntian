@@ -1,0 +1,45 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "17 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: wangkuntian
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin output || true
+          if git rev-parse --verify origin/output >/dev/null 2>&1; then
+            git worktree add .snake-output origin/output
+          else
+            git worktree add --detach .snake-output
+            git -C .snake-output checkout --orphan output
+          fi
+
+          find .snake-output -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -R dist/. .snake-output/
+          touch .snake-output/.nojekyll
+
+          git -C .snake-output add .
+          if git -C .snake-output diff --cached --quiet; then
+            exit 0
+          fi
+          git -C .snake-output commit -m "chore: update contribution snake"
+          git -C .snake-output push origin HEAD:output
