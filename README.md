@@ -171,6 +171,10 @@ mindmap
 
 <div align="center">
 
-**Do not blame every problem on the network. It is innocent until packet-captured.**
+---
+
+### Final Boss Rule
+
+**Comments are like side quests: essential lore, somehow always skipped.**
 
 </div>
