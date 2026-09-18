@@ -4,15 +4,15 @@
   <rect width="495" height="280" rx="6" fill="#1a1b27"/>
   <rect x="0.5" y="0.5" width="494" height="279" rx="5.5" stroke="#2f334d"/>
   <text x="24" y="34" fill="#70a5fd" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="700">Top Languages</text>
-  <rect x="24" y="56" width="154" height="8" rx="4" fill="#f34b7d"/>
-  <rect x="178" y="56" width="131" height="8" rx="4" fill="#00ADD8"/>
-  <rect x="309" y="56" width="58" height="8" rx="4" fill="#3572A5"/>
-  <rect x="367" y="56" width="19" height="8" rx="4" fill="#38bdf8"/>
-  <rect x="386" y="56" width="16" height="8" rx="4" fill="#555555"/>
-  <rect x="402" y="56" width="14" height="8" rx="4" fill="#38bdf8"/>
+  <rect x="24" y="56" width="153" height="8" rx="4" fill="#f34b7d"/>
+  <rect x="177" y="56" width="131" height="8" rx="4" fill="#00ADD8"/>
+  <rect x="308" y="56" width="58" height="8" rx="4" fill="#3572A5"/>
+  <rect x="366" y="56" width="19" height="8" rx="4" fill="#38bdf8"/>
+  <rect x="385" y="56" width="16" height="8" rx="4" fill="#555555"/>
+  <rect x="401" y="56" width="14" height="8" rx="4" fill="#38bdf8"/>
   <circle cx="30" cy="90" r="5" fill="#f34b7d"/>
   <text x="44" y="94" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C++</text>
-  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">34.4%</text>
+  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">34.3%</text>
   <circle cx="30" cy="118" r="5" fill="#00ADD8"/>
   <text x="44" y="122" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Go</text>
   <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">29.3%</text>
