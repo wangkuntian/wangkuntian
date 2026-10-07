@@ -15,13 +15,13 @@
   <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">39.6%</text>
   <circle cx="30" cy="118" r="5" fill="#f34b7d"/>
   <text x="44" y="122" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C++</text>
-  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">28.8%</text>
+  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">28.9%</text>
   <circle cx="30" cy="146" r="5" fill="#3572A5"/>
   <text x="44" y="150" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Python</text>
   <text x="410" y="150" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">10.9%</text>
   <circle cx="30" cy="174" r="5" fill="#38bdf8"/>
   <text x="44" y="178" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Swift</text>
-  <text x="410" y="178" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">3.6%</text>
+  <text x="410" y="178" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">3.7%</text>
   <circle cx="30" cy="202" r="5" fill="#555555"/>
   <text x="44" y="206" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C</text>
   <text x="410" y="206" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">3.0%</text>
