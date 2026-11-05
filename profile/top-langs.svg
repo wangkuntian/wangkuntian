@@ -9,23 +9,23 @@
   <rect x="313" y="56" width="41" height="8" rx="4" fill="#3572A5"/>
   <rect x="354" y="56" width="24" height="8" rx="4" fill="#3178c6"/>
   <rect x="378" y="56" width="14" height="8" rx="4" fill="#38bdf8"/>
-  <rect x="392" y="56" width="11" height="8" rx="4" fill="#555555"/>
+  <rect x="392" y="56" width="11" height="8" rx="4" fill="#89e051"/>
   <circle cx="30" cy="90" r="5" fill="#00ADD8"/>
   <text x="44" y="94" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Go</text>
-  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">40.4%</text>
+  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">40.5%</text>
   <circle cx="30" cy="118" r="5" fill="#f34b7d"/>
   <text x="44" y="122" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C++</text>
-  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">24.2%</text>
+  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">24.1%</text>
   <circle cx="30" cy="146" r="5" fill="#3572A5"/>
   <text x="44" y="150" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Python</text>
-  <text x="410" y="150" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">9.2%</text>
+  <text x="410" y="150" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">9.3%</text>
   <circle cx="30" cy="174" r="5" fill="#3178c6"/>
   <text x="44" y="178" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">TypeScript</text>
-  <text x="410" y="178" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">5.3%</text>
+  <text x="410" y="178" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">5.4%</text>
   <circle cx="30" cy="202" r="5" fill="#38bdf8"/>
   <text x="44" y="206" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Swift</text>
   <text x="410" y="206" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">3.1%</text>
-  <circle cx="30" cy="230" r="5" fill="#555555"/>
-  <text x="44" y="234" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C</text>
+  <circle cx="30" cy="230" r="5" fill="#89e051"/>
+  <text x="44" y="234" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Shell</text>
   <text x="410" y="234" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">2.5%</text>
 </svg>
