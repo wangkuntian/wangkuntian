@@ -5,17 +5,17 @@
   <rect x="0.5" y="0.5" width="494" height="279" rx="5.5" stroke="#2f334d"/>
   <text x="24" y="34" fill="#70a5fd" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="700">Top Languages</text>
   <rect x="24" y="56" width="183" height="8" rx="4" fill="#00ADD8"/>
-  <rect x="207" y="56" width="109" height="8" rx="4" fill="#f34b7d"/>
-  <rect x="316" y="56" width="42" height="8" rx="4" fill="#3572A5"/>
-  <rect x="358" y="56" width="24" height="8" rx="4" fill="#3178c6"/>
-  <rect x="382" y="56" width="14" height="8" rx="4" fill="#38bdf8"/>
-  <rect x="396" y="56" width="12" height="8" rx="4" fill="#89e051"/>
+  <rect x="207" y="56" width="108" height="8" rx="4" fill="#f34b7d"/>
+  <rect x="315" y="56" width="42" height="8" rx="4" fill="#3572A5"/>
+  <rect x="357" y="56" width="24" height="8" rx="4" fill="#3178c6"/>
+  <rect x="381" y="56" width="14" height="8" rx="4" fill="#38bdf8"/>
+  <rect x="395" y="56" width="12" height="8" rx="4" fill="#89e051"/>
   <circle cx="30" cy="90" r="5" fill="#00ADD8"/>
   <text x="44" y="94" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Go</text>
-  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">40.8%</text>
+  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">41.0%</text>
   <circle cx="30" cy="118" r="5" fill="#f34b7d"/>
   <text x="44" y="122" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C++</text>
-  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">24.3%</text>
+  <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">24.2%</text>
   <circle cx="30" cy="146" r="5" fill="#3572A5"/>
   <text x="44" y="150" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Python</text>
   <text x="410" y="150" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">9.3%</text>
