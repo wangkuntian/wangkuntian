@@ -12,7 +12,7 @@
   <rect x="396" y="56" width="12" height="8" rx="4" fill="#89e051"/>
   <circle cx="30" cy="90" r="5" fill="#00ADD8"/>
   <text x="44" y="94" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">Go</text>
-  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">40.9%</text>
+  <text x="410" y="94" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">40.8%</text>
   <circle cx="30" cy="118" r="5" fill="#f34b7d"/>
   <text x="44" y="122" fill="#c9d1d9" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14">C++</text>
   <text x="410" y="122" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" text-anchor="end">24.3%</text>
